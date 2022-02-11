@@ -8,7 +8,7 @@ jobs:
   deploy_staging:
     machine: true
     steps:
-      -run: echo "deploy staging"
+      - run: echo "deploy staging"
   acceptance_tests_1:
     machine: true
     steps:
